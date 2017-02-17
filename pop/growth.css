@@ -2,15 +2,26 @@
 font-family: 'Press Start 2P', cursive;
 font-family: 'Roboto Mono', monospace;*/
 body {
+  color: white;
+  background-color: transparent;
+  font-family: "Roboto Mono", monospace;
+  font-size: 20px; }
+
+.bg-pop-junior{
+  background: url("ct1mx5otn9a-ahmed-saffu.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.bg-pop-trainee{
   background: url("seedling_byMS_Unsplash.jpg") no-repeat center top fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  color: white;
-  background-color: transparent;
-  font-family: "Roboto Mono", monospace;
-  font-size: 20px; }
+}
 
 header {
   text-align: center; }
