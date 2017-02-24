@@ -1,0 +1,64 @@
+/*font-family: 'Rosario', sans-serif;
+font-family: 'Pacifico', cursive;*/
+/*yellow: #f9cc3c
+green: #bfd8bc*/
+body {
+  background: url("../images/appels.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Rosario', sans-serif;
+  font-size: 16px;
+  color: white; }
+
+h1 {
+  background-color: #bfd8bc;
+  font-family: 'Pacifico', cursive;
+  font-weight: bold italic;
+  font-size: 2rem;
+  text-align: center;
+  letter-spacing: 0.1rem;
+  padding: 2% 0; }
+
+h2 {
+  background-color: #f9cc3c;
+  display: block;
+  text-align: center;
+  font-style: italic; }
+
+h3 {
+  font-weight: bold; }
+
+nav {
+  text-align: center;
+  display: block;
+  padding: 0;
+  margin: 0; }
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; }
+
+nav ul li {
+  display: inline-block;
+  margin: 6% 1%;
+  padding: 2%;
+  background-color: #f9cc3c;
+  width: 20%;
+  height: 5%; }
+
+nav ul li a {
+  display: block;
+  color: white;
+  text-decoration: none; }
+
+header {
+  padding: 2%;
+  margin-top: 5%; }
+
+article {
+  background-color: #bfd8bc;
+  margin: 25% 2%; }
