@@ -1,0 +1,58 @@
+/* lightgreen:#bed93d darkgreen:#036649 brown:#5a4544
+font-family: 'Press Start 2P', cursive;
+font-family: 'Roboto Mono', monospace;*/
+body {
+  color: white;
+  background-color: transparent;
+  font-family: "Roboto Mono", monospace;
+  font-size: 20px; }
+
+.bg-pop-junior {
+  background: url("../images/ct1mx5otn9a-ahmed-saffu.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+.bg-pop-trainee {
+  background: url("../images/seedling_byMS_Unsplash.jpg") no-repeat center top fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+  .bg-pop-innovation {
+    background: url("../images/skye-studios-NDLLFxTELrU-unsplash.jpg") no-repeat center top fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; }
+
+header {
+  text-align: center; }
+
+
+h1,
+h2 {
+  font-family: "Press Start 2P", cursive;
+  font-size: 2.3rem; }
+
+header h1, header
+h2 {
+  background-color: rgba(3, 102, 73, 0.9);
+  text-align: center;
+  padding: 20px; }
+
+h4 {
+  background-color: rgba(190, 217, 61, 0.6);
+  display: inline-block;
+  font-style: italic;
+  padding: 15px; }
+
+main h4 {
+  text-align: center; }
+
+ul {
+  list-style-type: square; }
+
+/*# sourceMappingURL=style.css.map */
