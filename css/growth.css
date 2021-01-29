@@ -6,8 +6,14 @@ body {
   font-size: 20px;
 }
 
+.intro {
+  font-size: 12px;
+  font-style: italic;
+}
+
 .bg-pop-innovation {
-  background: url("../images/skye-studios-NDLLFxTELrU-unsplash.jpg") no-repeat center top fixed;
+  background: url("../images/skye-studios-NDLLFxTELrU-unsplash.jpg")
+  no-repeat center top fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
