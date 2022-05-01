@@ -1,138 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
-    <meta name="viewport" content="user-scalable=0, width=device-width, initial-scale=1.0,  minimum-scale=1.0, maximum-scale=1.0">
-
-    <title>NJoy Webdesign</title>
-
-    <link href="https://fonts.googleapis.com/css?family=Domine:400,700|Montserrat+Subrayada:700|Montserrat:400,700|Rambla:700i" rel="stylesheet">
-
-    <link rel="icon" href="images/favicon-16.png" sizes="16x16" type="image/png">
-    <link rel="icon" href="images/favicon-32.png" sizes="32x32" type="image/png">
-    <link rel="icon" href="images/favicon-48.png" sizes="48x48" type="image/png">
-    <link rel="icon" href="images/favicon-62.png" sizes="62x62" type="image/png">
-    <link rel="icon" href="images/favicon-192.png" sizes="192x192" type="image/png">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <script src="https://use.fontawesome.com/9994db8c79.js"></script>
-
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nina Joy's Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css"
+      integrity="sha512-IgmDkwzs96t4SrChW29No3NXBIBv8baW490zk5aXvhCD8vuZM3yUSkbyTBcXohkySecyzIrUwiF/qV0cuPcL3Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
   </head>
-
   <body>
+    <section class="hero is-primary is-medium">
+      <!-- Hero head: will stick at the top -->
+      <div class="hero-head">
+        <nav class="navbar">
+          <div class="container">
+            <div class="navbar-brand">
+              <a class="navbar-item">
+                <p class="is-family-code has-text-link">NinaJoy</p>
+              </a>
+              <span class="navbar-burger" data-target="navbarMenuHeroA">
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+            </div>
+            <div id="navbarMenuHeroA" class="navbar-menu">
+              <div class="navbar-end">
+                <a a href="https://github.com/Ninajoy" class="navbar-item">
+                  Github</a
+                >
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
 
-    <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#Ninavbar">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#aboutme">NJoy Webdesign</a>
-        </div>
-        <div class="collapse navbar-collapse" id="Ninavbar">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#aboutme">About</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="https://github.com/Ninajoy"><i class="fa fa-github" aria-hidden="true"></i></a></li>
-            <li><a href="http://codepen.io/NinaJoy/"><i class="fa fa-codepen" aria-hidden="true"></i></a></li>
-          </ul>
+      <!-- Hero content: will be in the middle -->
+      <div class="hero-body">
+        <div class="container has-text-centered is-family-code">
+          <h1 class="title">Nina Joy Codes</h1>
+          <p class="subtitle">
+            My goal is to be a good, kind & fun person to others and myself. I
+            want to build bridges to connect people and pave my own roads. While
+            solving puzzles and asking questions along the way. I want to work
+            in an inclusive and diverse environment where people are treated
+            equal, each talent is used optimally and where pay is equal too.
+            <br />
+            <br />
+            Love is all & Keep on learning are my life motto's. So besides
+            connection and courage i will keep on learning cool technical
+            things. The design system I work for with it's technical evolutions
+            is a great learning place. I will also keep on joining conferences
+            and talks. And when there are interesting courses by for example
+            Fronteers I will join those too.
+          </p>
         </div>
       </div>
-    </nav>
 
-    <header class="jumbotron" id="aboutme">
-      <div class="container text-center">
-        <h1>NJoy Webdesign</h1>
-        <p>Welcome! My name is Nina Joy and I am a Front End developer.</p>
-        <p>At the start of 2016 I caught the coding fever and I haven't been able to stop coding since...</p>
-      </div>
-    </header>
-
-    <div id="portfolio">
-    <section class="container text-center">
-      <h2>Portfolio</h2>
-      <div class="row">
-          <div class="col-md-3 col-sm-6 col-xs-12">
-            <a href="http://www.socialbbq.nl/">
-            <h3>Social BBQ</h3>
-            <img src="images/SocialBBQWebsite.png" class="img-responsive img-thumbnail" style="width:100%" alt="Social BBQ website screenshot">
-            </a>
+      <!-- Hero footer: will stick at the bottom -->
+      <div class="hero-foot">
+        <nav class="tabs">
+          <div class="container">
+            <ul>
+              <li><a>Hi</a></li>
+              <li><a>Nice</a></li>
+              <li><a>To Meet</a></li>
+              <li><a>You</a></li>
+            </ul>
           </div>
-          <div class="col-md-3 col-sm-6 col-xs-12">
-            <a href="#">
-            <h3>Sher</h3>
-            <img src= "images/Sher The Experience.png" class="img-responsive img-thumbnail" style="width:100%" alt="Sher website screenshot">
-            </a>
-          </div>
-          <div class="col-md-3 col-sm-6 col-xs-12">
-            <h3>Future project</h3>
-            <img src= "https://d13yacurqjgara.cloudfront.net/users/581199/screenshots/2470538/event-microsite_1x.png"
-            class="img-responsive img-thumbnail" style="width:100%" alt="Placeholder Image of parkbench">
-          </div>
-          <div class="col-md-3 col-sm-6 col-xs-12">
-            <h3>Future project</h3>
-            <img src= "https://d13yacurqjgara.cloudfront.net/users/22679/screenshots/1949553/driblfooter_1x.png"
-            class="img-responsive img-thumbnail" style="width:100%" alt="Placeholder Image of parkbench">
-          </div>
+        </nav>
       </div>
     </section>
-    </div>
 
-    <section class="container-fluid text-center" id="contact">
-      <h2>Contact</h2>
-      <form class="col-sm-12" role="form" action="mailto:ninajoywebdesign@gmail.com" method="post" enctype="text/plain">
-        <div class="row">
-          <div class="col-sm-1 col-md-3"></div>
-        <div class="form-group form-group-lg col-sm-5 col-md-3 details">
-          <div class="">
-            <label class="sr-only" for="usr">Name</label>
-            <input type="text"class="form-control" required="required" id="name" placeholder="Name">
-          </div>
-          <label class="sr-only" for="email">Email</label>
-          <div class="">
-            <input type="email"class="form-control" required="required" id="email" placeholder="Email">
-          </div>
-          <label class="sr-only" for="subject">Subject</label>
-          <div class="">
-            <input type="text"class="form-control" id="subject" required="required" placeholder="Subject">
-          </div>
-        </div>
-        <div class="form-group form-group-lg col-sm-5 col-md-3 message">
-          <label class="sr-only" for="comment">Message</label>
-          <textarea class="form-control" rows="5" cols="30" required="required" id="message" placeholder="Message"></textarea>
-        </div>
-
-          <div class="col-sm-1 col-md-3"></div>
-        <div class="row">
-          <div class="col-xs-12 text-center">
-              <input type="submit" class="btn btn-default btn-large" value="Send">
-          </div>
-        </div>
-        </div>
-
-      </form>
+    <section class="hero is-link is-fullheight main-background">
+      <div class="hero-body">
+        <main>Photo by Ravi Kumar on Unsplash</main>
+      </div>
     </section>
-
-    <footer class="container-fluid text-center">
-      <p>Created with <i class="fa fa-heart" aria-hidden="true"></i> and my dear friend curiosity</p>
-      <p>NJoy Webdesign &copy; 2016 as an assignment for Free Code Camp</p>
-    </footer>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-    <!-- build:js js/main.min.js -->
-    <script type="text/javascript" src='js/main.js'></script>
-    <!-- endbuild -->
-    <noscript><p>Javascript is disabled. Please enable Javascript to Enjoy this site to the max. For more information on this topic please visit:<a href="http://www.enable-javascript.com/" target="_blank" rel="noopener noreferrer">www.enable-javascript.com</a>.</p></noscript>
-
   </body>
 </html>
